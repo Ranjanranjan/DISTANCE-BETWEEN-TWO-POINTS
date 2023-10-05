@@ -17,18 +17,19 @@ using the print function, display the distance between the two points.
 End the program.
 ### PROGRAM:
 ```
-Program to find distance between two points.
-Developed by : KAVINRAJA D
-Reference no : 22007928
-import math 
-l1 = [4,2]
-l2 = [10,6]
-d = math.sqrt(((l2[0]-l1[0])**2)+((l2[1]-l1[1])**2))
+#Program to find the distance between two points.
+#Developed by: Ranjan K
+#RegisterNumber:212222230116
+import math
+l1=[4,2]
+l2=[10,6]
+d=math.sqrt(((l2[0]-l1[0])**2)+((l2[1]-l1[1])**2))
 print("{:.2f}".format(d))
 ```
   
 ### OUTPUT:
-![OUTPUT](./images/Distance.png)
+![Screenshot 2023-10-05 211311](https://github.com/Ranjanranjan/DISTANCE-BETWEEN-TWO-POINTS/assets/130027697/38b0f9e7-e121-4a64-b8ec-42bca9fd484a)
+
 
 ### RESULT:
 Thus the distance of the two points is sucessfully executed and displayed.
